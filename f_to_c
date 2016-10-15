@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+   double f,c;
+   printf("please input Fahrenheit:");
+   scanf("%lf",&f);
+   c=5/9.0*(f-32);
+   printf("%lfFahrenheit equal to%lfCelsius.",f,c);
+   return 0;
+}
