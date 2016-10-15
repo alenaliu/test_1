@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+   int a;
+   printf("please input a:\n");
+   scanf("%d",&a);
+   printf("a*a*a=%d\n",a*a*a);
+   return 0;
+}
