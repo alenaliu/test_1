@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+   double x,y;
+   printf("please input x,y:");
+   scanf("%lf,%lf",&x,&y);
+   printf("x+y=%lf\n",x+y);
+   printf("x-y=%lf\n",x-y);
+   printf("x*y=%lf\n",x*y);
+   printf("x/y=%lf\n",x/y);
+   printf("x%%y=%d\n",((int)x)%((int)y));
+   return 0;
+}
