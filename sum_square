@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+	int x=9,y=10;
+	printf("9*9+10*10=%d\n",x*x+y*y);
+	return 0;
+}
